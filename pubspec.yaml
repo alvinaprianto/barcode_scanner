@@ -26,6 +26,12 @@ dependencies:
   mobile_scanner: ^6.0.1
   image_picker: ^1.1.2
 
+dependency_overrides: 
+  mobile_scanner:
+    git:
+      url: https://github.com/juliansteenbakker/mobile_scanner.git #current package is not compatible with flutter 3.29.3
+      branch: develop
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
